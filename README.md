@@ -6,6 +6,9 @@ Este proyecto es una práctica sencilla que muestra cómo leer, limpiar y ordena
 
 El programa lee el contenido de un archivo llamado `listas.in`, donde se encuentran listas de palabras y números separados por puntos (`.`). Luego, limpia y divide estas listas, separando las palabras de los números. Finalmente, ordena ambos grupos por separado y los combina de nuevo en la estructura original antes de imprimir los resultados.
 
+## Estructura de archivos
+En los archivos podemos encontrar 3, el `listas.in` que almacena los datos, el `main.py` que es el programa principal, realizado con un paradigma de programación funcional y el `codigoEstructurado` que realiza la misma funcionalidad pero realizado con un paradigma de programación estructurado
+
 ## Estructura del Código
 
 ### Funciones Principales
@@ -24,4 +27,3 @@ El programa se ejecuta llamando a las funciones en el siguiente orden:
 3. `separar_elementos(contenido)`: Separa y ordena las palabras y números.
 4. `ordenar_lista(elementos, palabras_ordenadas, numeros_ordenados)`: Reconstruye la lista ordenada.
 5. Imprime el resultado final.
-
